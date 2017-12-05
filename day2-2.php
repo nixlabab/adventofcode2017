@@ -1,5 +1,5 @@
 <?php
-$handle = fopen("day2-1.csv", "r");
+$handle = fopen("day2.csv", "r");
 $sum = 0;
 $evenArr = array();
 if ($handle) {
