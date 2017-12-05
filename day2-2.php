@@ -17,7 +17,6 @@ if ($handle) {
         }
 
         natsort($evenArr);
-        var_dump($evenArr);
         $sum += (end($evenArr) / reset($evenArr));
         unset($evenArr);
         $evenArr = array();
